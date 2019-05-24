@@ -1,0 +1,252 @@
+
+//全局蓝色头部model start
+.mxj-model-blur{
+  :global{
+    .ant-modal-header{
+      background-image: linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%);
+      color: #fff;
+      .ant-modal-title{
+        color: #fff;
+      }
+    }
+    .ant-modal-content{
+      .ant-modal-close-x{
+        color: #fff;
+      }
+    }
+  }
+}
+// model end
+
+// 背景颜色定义
+.fff-bg{
+  background: #fff;
+}
+// 通用字体颜色
+.mxj-25-color{
+  color: #002525;
+}
+.mxj-error-color{
+  color: #FF5555;
+}
+.mxj-info-color{
+  color: #0179FF;
+}
+.mxj-success-color{
+  color: #36DCB6;
+}
+.mxj-warn-color{
+  color: #FFC400;
+}
+.mxj-green-color{
+  color: #180000;
+}
+.bfbfbf{
+  color: #bfbfbf;
+}
+// 通用border颜色
+.mxj-error-border{
+  border-color: #FF5555;
+}
+.mxj-info-border{
+  border-color: #0179FF;
+}
+.mxj-success-border{
+  border-color: #36DCB6;
+}
+.mxj-warn-border{
+  border-color: #FFC400;
+}
+.mxj-border-2px{
+  border-radius: 2px;
+}
+
+.mxj-width-180{
+  width: 180px!important;
+}
+.mxj-display-flex{
+  display: flex!important;
+}
+// 背景颜色
+
+.mxj-f7f7f7-bg{
+  background: #F7F7F7;
+}
+// 右间距
+.mxj-margin-right-16{
+  margin-right: 16px;
+}
+.mxj-flex-center{
+  display: flex;
+  justify-content: center;
+}
+//上间距
+.mxj-margin-top-40{
+  margin-top: 40px;
+}
+
+.ant-layout{background : #FBFBFB;min-height: auto;}
+.ant-switch-checked{background-color: #36DCB6;}
+.ant-menu-item{
+  background :rgba(0,0,0,0.0624);margin : 0 !important;
+}
+.ant-menu-item-selected{
+  background-image: linear-gradient(-90deg, #43C2FF 0%, #0067DB 75%);
+  border-left: 4px solid #5EB5FF;
+  box-sizing: border-box;
+}
+.ant-menu-submenu-open{
+  color : linear-gradient(90deg, #43C2FF 0%, #0067DB 75%);
+}
+
+.ant-menu{
+  background-image: linear-gradient(180deg, #0B1547 0%, #101931 37%);
+}
+.ant-btn-primary{background : #0179FF;}
+
+.ant-table{line-height: 18px;}
+.ant-table-thead > tr > th {background: rgba(114,126,139,0.06);color : #A9A9A9;}
+.ant-layout-header{padding : 0 24px;}
+.ant-layout-content{min-height: auto;}
+.ant-layout-sider-children{
+  min-height: 100vh;
+}
+.mxj_table_warp .mxj_table{
+  border : none;
+}
+.mxj-star{
+  color: #FF0000;
+  font-size: 14px;
+  line-height: 1;
+  margin-right: 8px;
+  font-family: 'SimSun, sans-serif';
+}
+
+.mxj-margin-top-8{
+  margin-top: 8px;
+}
+.mxj-margin-top-16{
+  margin-top: 16px;
+}
+.mxj-margin-top-32{
+  margin-top: 32px;
+}
+.mxj-margin-top-24{
+  margin-top: 24px;
+}
+
+.mxj-margin-left-8{
+  margin-left: 8px;
+}
+.mxj-margin-left-16{
+  margin-left: 16px;
+}
+.mxj-margin-left-32{
+  margin-left: 32px;
+}
+.mxj-margin-left-24{
+  margin-left: 24px;
+}
+
+.mxj-margin-right-8{
+  margin-right: 8px;
+}
+.mxj-margin-right-16{
+  margin-right: 16px;
+}
+.mxj-margin-right-32{
+  margin-right: 32px;
+}
+.mxj-margin-right-24{
+  margin-right: 24px;
+}
+
+.mxj-margin-right-8{
+  margin-right: 8px;
+}
+.mxj-margin-right-16{
+  margin-right: 16px;
+}
+.mxj-margin-right-32{
+  margin-right: 32px;
+}
+.mxj-margin-right-24{
+  margin-right: 24px;
+}
+
+.mxj-margin-bottom-8{
+  margin-bottom: 8px;
+}
+.mxj-margin-bottom-24{
+  margin-bottom: 24px;
+}
+.mxj-margin-bottom-16{
+  margin-bottom: 16px;
+}
+.mxj-margin-bottom-32{
+  margin-bottom: 32px;
+}
+.mxj-margin-bottom-48{
+  margin-bottom: 48px;
+}
+
+a{
+  color : #3F7FFF;
+}
+
+.medium_600{
+  font-family: "medium","Microsoft YaHei";
+  font-weight: 600;
+}
+.ant-select-dropdown-menu-item-active{
+  background: linear-gradient(to right, #7CD4FF, #0078FF);
+  color: #fff;
+}
+.ant-pagination-item, .ant-pagination-prev, .ant-pagination-next, .ant-pagination-options-size-changer, .ant-pagination-options-quick-jumper input{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+
+.mxj-table-page-common{
+  :global{
+    .ant-table{
+      border: 1px solid #E9E9E9;
+      border-radius: 4px;
+    }
+    .ant-pagination{
+      float: none!important;
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 24px;
+      margin: 32px 0;
+      .ant-pagination-total-text{
+        flex-grow: 1;
+        flex-shrink: 0;
+      }
+      .ant-pagination-item, .ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link, .ant-pagination-options-size-changer .ant-select-selection, .ant-pagination-options-quick-jumper input{
+        border: none;
+      }
+    }
+  }
+}
+
+// 财务管理样式
+.search_card {
+  :global {
+    .ant-card-body {
+      padding: 24px 24px 6px 24px;
+    }
+  }
+}
+
+.ant-message{
+  top: 50%;
+  transform: translate(0, -50%);
+  .ant-message-notice-content{
+    width: 180px;
+    height: 40%;
+    background: rgba(0,0,0, 0.6);
+    border-radius: 4px;
+    color: #fff;
+  }
+}
