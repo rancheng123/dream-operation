@@ -1,0 +1,24 @@
+
+    .goods_info{
+        background: #FFF; padding: 24px 32px; box-shadow: 0 2px 14px 0 rgba(0,0,0,0.10); border-radius: 4px;
+        :global{
+            p.label{vertical-align: middle;margin : 0;display: inline-block;} 
+            .ant-form{width : 100%;}
+            .ant-form-item{display: flex;margin-bottom: 0;line-height: 14px;align-items: center;}
+            .ant-form-item-label{line-height: 14px;color : #656771;}
+            .ant-form-item-label label{color: #656771;}
+            .ant-form-item-control{line-height: 14px;color : #2C2D31;  }
+            .mb0{height : 32px;display: flex;align-items: center;margin-bottom: 16px;padding-left: 8px;}
+            .mb16{margin-bottom: 16px;padding-left: 8px;}
+            .flex{display: flex;width : 172px;box-sizing: content-box;justify-content: space-between;margin:0 auto;padding-top: 8px;}
+            .icon{width : 6px;height : 12px;display : inline-block;margin-right : 8px;background-image: linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%); border-radius: 2px;}
+            button{width : 78px;}
+            .ant-input-suffix{
+                color : #BFBFBF;
+            }
+        }
+    }
+
+
+// 
+

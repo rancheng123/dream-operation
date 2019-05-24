@@ -1,0 +1,4 @@
+module.exports = {
+    data: [{"value":"广大银行","label":"广大银行"},{"value":"北京银行","label":"北京银行"},{"value":"天津银行","label":"天津银行"},{"value":"海南银行","label":"海南银行"},{"value":"重庆银行","label":"重庆银行"},{"value":"四川银行","label":"四川银行"}],
+    dataList:{dataA:[{"value":"最新","label":"最新"},{"value":"最近1个月内","label":"最近1个月内"},{"value":"最近2个月内","label":"最近2个月内"},{"value":"最近3个月内","label":"最近3个月内"}],dataB:[{"value":"不限","label":"不限"},{"value":"小于10%","label":"小于10"},{"value":"10%~15%","label":"10%~15%"},{"value":"大于15%","label":"大于15%"}],dataC:[{"value":"不限","label":"不限"},{"value":"小于30天","label":"小于30天"},{"value":"30~60天","label":"30~60天"},{"value":"60~90天","label":"60~90天"},{"value":"90天以上","label":"90天以上"}]}
+}

@@ -1,0 +1,25 @@
+.goods_config{
+    width : 100%;
+}
+.goods_config .icon{
+    width: 6px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 8px;
+    background-image: linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%);
+    border-radius: 2px;
+}
+.goods_config ul{margin : 0;padding : 0;}
+.goods_config ul li.item_li{
+    list-style-type: none;
+    height : 32px;
+    line-height: 32px;
+    padding-left : 40px;
+    box-sizing: content-box;
+    color : #656771;
+}
+.goods_config ul li.item_li:hover{
+    color : #0179FF;
+    background-image: linear-gradient(-90deg,rgba(210,210,210,.2) 0%, rgba(111,111,111,.2) 100%);
+}
+

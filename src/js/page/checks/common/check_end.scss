@@ -1,0 +1,122 @@
+.check_end{
+    :global{
+        p{margin : 0 ;}
+        em{font-style: normal;}
+        .icon{
+            width: 6px;
+            height: 12px;
+            display: inline-block;
+            margin-right: 8px;
+            background-image: linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%);
+            border-radius: 2px;
+        }
+        .ant-steps-item-icon{
+            width : 28px;
+            height : 28px;
+            line-height: 28px;
+        }
+        .ant-steps-item-description{
+            font-size : 12px;
+            white-space: nowrap;
+        }
+        .ant-form-item {
+            display: flex;
+        }
+        .ant-form-item-label{
+            line-height: 32px;
+        }
+        .ant-form-item-control{
+            line-height: 32px;
+        }
+        .ant-form-item-children span{
+            color : #2C2D31;
+        }
+      
+    }
+    .form_title{
+       height : 40px;
+       line-height: 40px;
+       background-image: linear-gradient(90deg, rgba(225,225,225,.24) 1%, rgba(191,191,191,.24) 100%);
+       box-shadow: 0 2px 14px 0 rgba(0,0,0,0.05);
+       border-radius: 4px;
+       box-sizing: content-box;
+       padding-left : 20px;
+       font-family: PingFangSC-Medium;
+       font-size: 14px;
+       color: #2C2D31;
+       margin : 24px 0 8px;
+    }
+    .date_row{
+        height : 40px;
+        line-height: 40px;
+        background: rgba(1,121,255,0.60);
+        border: 1px solid #E9E9E9;
+        border-radius: 4px 4px 0 0;
+        color : #FFF;
+        padding-left: 20px;
+    }
+    .date_footer{
+        height : 40px;
+        background: #BFBFBF;
+        border: 1px solid #E9E9E9;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        color : #FFF;
+        margin : 16px 0 0;
+    }
+    .free_rent{
+        width : 60px;
+        height : 20px;
+        line-height: 20px;
+        display: inline-block;
+        background: #FFFFFF;
+        border-radius: 8px;
+        text-align: center;
+        margin-left : 16px;
+        color : black;
+    }
+    .border_mon{
+        color: #0179FF !important;
+        height : 20px;
+        padding :0 8px;
+        line-height: 20px;
+        border: 1px solid #0179FF;
+        border-radius: 4px;
+        text-align: center;
+        font-family: PingFangSC-Regular;
+    }
+    .text_area .ant-form-item{
+        display: block;
+    }
+    .order_row{
+        height : 40px;
+        display: flex;
+        align-items: center;
+        background-image: linear-gradient(90deg, rgba(239,239,239,0.30) 1%, rgba(232,232,232,0.55) 100%);
+        box-shadow: 0 2px 14px 0 rgba(0,0,0,0.05);
+        margin-bottom: 8px;
+        padding-left: 40px;
+    }
+    .new_icon{
+        position : absolute;
+        right : -24px;
+        top : -12px;
+        font-size : 24px;
+    }
+    .c1{
+        font-family: PingFangSC-Regular;
+        color: #656771;
+    }
+    .c2{
+        font-family: PingFangSC-Regular;
+        color: #2C2D31;
+    }
+    .c3{
+        font-family: PingFangSC-Regular;
+        color: #000000;
+        font-weight: 600
+    }
+
+    .ant-table-thead > tr > th ,.ant-table-tbody > tr > td{white-space: nowrap;}
+}

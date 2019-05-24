@@ -1,0 +1,27 @@
+.bill_payment_box {
+    box-sizing: content-box;
+    
+    .payment_button_box {
+
+    }
+}
+
+.payment_form_box {
+    box-sizing: content-box;
+
+    :global {
+        .ant-modal-header {
+            background-image: linear-gradient(-90deg, #142B6B 0%, #0179FF 100%);   
+            .ant-modal-title {
+                color: #FFFFFF;
+            }
+        }
+    
+        .anticon-close {
+            color: #FFFFFF;
+        }
+        .ant-form-item {
+            margin-bottom: 8px;
+        }
+    }
+}

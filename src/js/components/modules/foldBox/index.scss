@@ -1,0 +1,38 @@
+.aa {
+    background: red;
+}
+
+.fold_box_module {
+    box-sizing: content-box;
+    // padding:  24px 32px;
+
+    .fold_box {
+        
+        .icon_box {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+        
+        .icon_rectangle {
+            background-image: linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%);
+            border-radius: 2px;
+            width: 6px;
+            height: 12px;
+        }
+        
+        :global{
+            .ant-card-body {
+                padding:  24px 32px;
+            }
+
+            .ant-collapse-header {
+                padding: 0px 20px 12px 14px;
+                color: #2C2D31;
+                font-family: PingFangSC-Medium;
+                font-size: 14px;
+            }
+        }
+    }
+}

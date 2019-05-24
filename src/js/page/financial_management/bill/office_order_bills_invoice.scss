@@ -1,0 +1,31 @@
+.bill_invoice_box {
+    box-sizing: content-box;
+    
+    :global {
+        .bill_invoice_content {
+            box-shadow: 0 2px 14px 0 rgba(0,0,0,0.10);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+    
+        .invoice_button_box {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+    
+            .button_1 {
+                margin-right: 16px;
+            }
+        }
+
+        // ant-design 样式修改
+        .ant-form-item {
+            display: flex;
+        }
+
+        .ant-form-item-control-wrapper {
+            flex: 1;
+        }
+    }
+}

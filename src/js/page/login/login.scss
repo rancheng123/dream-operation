@@ -1,0 +1,227 @@
+.aaa {
+  background: transparent;
+}
+.loginModule {
+  :global {
+    .logo {
+      position: absolute;
+      top: 37px;
+      left: 40px;
+    }
+    .noMarginBottom {
+      margin-bottom: 16px;
+    }
+    .ant-input {
+      height: 38px;
+    }
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 108px;
+  }
+}
+@keyframes typing_1920 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 150px;
+  }
+}
+@keyframes typing2 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 375px;
+  }
+}
+@keyframes typing2_1920 {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 600px;
+  }
+}
+
+.loginModule {
+  height: 100vh;
+  width: 100vw;
+  // min-height: 500px;
+  min-width: 990px;
+  background-image: url("../../../image/img/bg3840.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  overflow: hidden;
+  .login-module-content {
+    .ant-input-affix-wrapper:hover {
+      .ant-input {
+        border: 2px solid #55ffc6;
+      }
+    }
+    .ant-input {
+      background-color: transparent;
+      border: 1px solid #55ffc6; //2994ff
+      color: #fff;
+      &::-webkit-input-placeholder {
+        /* WebKit, Blink, Edge */
+        color: #fff;
+      }
+      &:-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: #fff;
+      }
+      &::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: #fff;
+      }
+      &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #fff;
+      }
+    }
+    .ant-input:focus {
+      border: 2px solid #55ffc6;
+    }
+    .has-error {
+      .ant-input-affix-wrapper {
+        .ant-input {
+          border-color: #ff5555;
+          border-width: 1px;
+        }
+        .ant-input:hover {
+          border-color: #ff5555;
+          border-width: 2px;
+          background-color: transparent;
+        }
+        .ant-input:focus {
+          border-color: #ff5555;
+          border-width: 2px;
+        }
+      }
+    }
+
+    .login_button {
+      border-radius: 8px;
+      background: linear-gradient(to right, #0cfebc, #00bdfc);
+      // background: linear-gradient(to right, red, yellow);
+      border: none;
+      color: #fff;
+      &:focus {
+        border: 1px solid #0cfebc;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1px) and (max-width: 1441px) {
+  .loginModule {
+    .login-logo {
+      padding: 27px 0 0 57px;
+      svg {
+        width: 188px !important;
+        height: 57px !important;
+      }
+    }
+    .login-module-content {
+      // padding-left: 102px;
+      margin-left: 102px;
+      padding-top: 90px;
+      .login-module-content-welcome {
+        font-size: 32px;
+        width: 0;
+        // font: 200% monospace;
+        overflow: hidden;
+        white-space: nowrap;
+        // word-break: keep-all;
+        animation: typing 1s linear;
+        animation-fill-mode: forwards;
+      }
+      .login-module-content-title {
+        padding-bottom: 66px;
+        width: 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing2 3s linear 1s;
+        animation-fill-mode: forwards;
+        span {
+          font-size: 32px;
+        }
+      }
+      .ant-input {
+        font-size: 14px;
+        height: 39px;
+        width: 286px;
+      }
+      .login_button {
+        border-radius: 8px;
+        height: 39px;
+        width: 286px;
+        border: none;
+        color: #fff;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .loginModule {
+    // background-image: url('../../../image/img/bg3840.jpg');
+    .login-logo {
+      padding: 36px 0 0 76px;
+      svg {
+        width: 251px !important;
+        height: 76px !important;
+      }
+    }
+    .login-module-content {
+      // padding-left: 136px;
+      margin-left: 136px;
+      padding-top: 121px;
+      .login-module-content-welcome {
+        font-size: 48px;
+        width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 1s linear;
+        animation-fill-mode: forwards;
+      }
+      .login-module-content-title {
+        span {
+          font-size: 48px;
+        }
+        padding-bottom: 88px;
+        width: 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing2_1920 3s linear 1s;
+        animation-fill-mode: forwards;
+        span {
+          font-size: 48px;
+        }
+      }
+      .ant-input {
+        font-size: 16px;
+        height: 52px;
+        width: 382px;
+      }
+      .login_button {
+        border-radius: 8px;
+        height: 52px;
+        width: 382px;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+      }
+    }
+  }
+}
+#g_image {
+  transform: rotate(-30deg);
+}

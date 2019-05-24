@@ -1,0 +1,95 @@
+.organizeOp{
+    :global{
+        p.label{vertical-align: middle;margin : 0;display: inline-block;} 
+        .ant-form{width : 100%;overflow: hidden;}
+        .ant-form-item{display: flex;margin-bottom: 0;}
+        .ant-form-item-label{line-height: 32px;}
+        .ant-form-item-label label{color: #656771;line-height: 32px;}
+        .flex{display: flex;width : 172px;box-sizing: content-box;justify-content: space-between;margin:0 auto;}
+        .icon{width : 6px;height : 12px;display : inline-block;margin-right : 8px;background-image: linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%); border-radius: 2px;}
+        .ant-form-item-children span{
+           color : #2C2D31;
+       }
+        .ant-form-item-control{
+           line-height: 32px;
+       }
+        .upload_btn{
+           width : 87px;
+           height : 24px;
+           background-image: linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%);
+           border-radius: 4px;
+           color : #FFF;
+           padding : 0 8px;
+           outline: none;
+           border : none;
+       }
+        .upload_btn span{color : inherit;margin-left : 2px;}
+       .ant-upload-text {
+           margin-top: 8px;
+           color: #A8A8A8;
+           font-size : 12px;
+       }
+       .anticon-plus{font-size: 32px;color : #999999;}
+       .upload_box{
+           width : 96px;
+           height : 102px;
+           text-align: center;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           background: #FBFBFB;
+           border: 1px dashed #D9D9D9;
+           border-radius: 4px;
+           margin-top : 18px;
+           float : right;
+       }
+       .double_upload .ant-form-item-children{
+           display: flex;
+       }
+       .organize_logo{
+           width: 60px;
+           height: 60px;
+           display: inline-block;
+           background: #D8D8D8;
+           border: 1px solid #BFBFBF;
+           border-radius: 4px;
+           background-position: center;
+           background-size: cover;
+}
+       .img_css{
+           width : 92px;
+           height : 102px;
+           display: inline-block;
+           background : #FBFBFB;
+           margin-top : 18px;
+           background-size: cover;
+           background-position: center;
+       }
+   }
+    
+}
+.scan_modal{
+    :global{
+        .ct_modal{
+            display: flex;
+            position : relative;
+        }
+        .ct_modal:hover .close{display: flex;}
+        .close{
+               width: 30px;
+               height: 30px;
+               padding : 10px;
+               border : 1px solid #FFF;
+               position: absolute;
+               right: 10px;
+               top: 20px;
+               display: none;
+               justify-content: center;
+               align-items: center;
+               border-radius: 50%;
+               cursor: pointer;
+        }
+
+    }
+}
+

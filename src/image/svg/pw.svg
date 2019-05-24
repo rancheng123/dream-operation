@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>密码icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.199546547" offset="99.1765203%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.198890953" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="登录2.0-密码" transform="translate(-162.000000, -561.000000)">
+            <g id="分组" transform="translate(76.000000, 36.000000)">
+                <g id="密码icon" transform="translate(86.000000, 525.073000)">
+                    <path d="M4.036,8.452 C2.357,8.452 0.996,9.812 0.996,11.492 L0.996,11.492 L0.996,18.846 C0.996,20.524 2.357,21.886 4.036,21.886 L4.036,21.886 L16.29,21.886 C17.969,21.886 19.33,20.524 19.33,18.846 L19.33,18.846 L19.33,11.492 C19.33,9.812 17.969,8.452 16.29,8.452 L16.29,8.452 L4.036,8.452 Z M8.029,16.605 C8.029,15.751 8.534,15.018 9.26,14.681 L9.26,14.681 L9.26,13.116 C9.26,12.587 9.69,12.159 10.218,12.159 L10.218,12.159 C10.747,12.159 11.176,12.587 11.176,13.116 L11.176,13.116 L11.176,14.749 C11.828,15.111 12.27,15.805 12.27,16.605 L12.27,16.605 C12.27,17.775 11.321,18.725 10.15,18.725 L10.15,18.725 C8.979,18.725 8.029,17.775 8.029,16.605 L8.029,16.605 Z" id="Fill-34" fill="url(#linearGradient-1)"></path>
+                    <path d="M4.274,8.452 L6.006,8.452 C6.22,4.692 7.556,1.971 10.084,1.971 L10.084,1.971 C12.646,1.971 14.254,4.633 14.48,8.452 L14.48,8.452 L16.053,8.452 C15.725,3.829 13.213,0.234 10.163,0.234 L10.163,0.234 C7.112,0.234 4.601,3.829 4.274,8.452" id="Fill-32" fill="url(#linearGradient-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

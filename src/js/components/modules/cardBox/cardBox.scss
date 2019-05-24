@@ -1,0 +1,14 @@
+.card_box_modle {
+    box-sizing: content-box;
+
+    .card_box {
+        box-sizing: content-box;
+        padding: 8px;
+    
+        :global {
+            .ant-card-body {
+                padding: 24px 32px 0 32px;
+            }
+        }
+    }
+}

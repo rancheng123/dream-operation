@@ -1,0 +1,39 @@
+.deposit_form_details_box {
+    box-sizing: content-box;
+
+    .deposit_form_content_box {
+        box-shadow: 0 2px 14px 0 rgba(0,0,0,0.10);
+        border-radius: 4px;
+        overflow: hidden;
+        // margin-top: 35px;
+    }
+
+    // 时间轴list 样式
+    .timeline_item_content {
+        .timeline_item_header {
+            padding: 2px 16px 8px 16px;
+
+            .item_header_space {
+                margin-left: 48px;
+            }
+        }
+
+        .timeline_item_content {
+            background-image: linear-gradient(-180deg, rgba(102,240,220,0.10) 0%, rgba(54,220,182,0.10) 100%);
+            border-radius: 4px;
+            font-size: 14px;
+            color: #656771;
+            padding: 8px 16px;
+            line-height: 24px;
+        }
+
+        .timeline_item_content2 {
+            background: rgba(255,85,85,0.08);
+            border-radius: 4px;
+            font-size: 14px;
+            color: #656771;
+            padding: 8px 16px;
+            line-height: 24px;
+        }
+    }
+}

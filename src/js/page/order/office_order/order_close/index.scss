@@ -1,0 +1,21 @@
+.mxj-koukuan-content{
+  display: -webkit-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  .mxj-koukuan-left{
+    flex: 1;
+    display: flex;
+  }
+  .mxj-koukuan-right{
+
+  }
+  .mxj-koukuan-title{
+    color: #000;
+  }
+}
+.mxj-float-right{
+  width: 100%;
+  text-align: right;
+}

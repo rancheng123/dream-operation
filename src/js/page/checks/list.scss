@@ -1,0 +1,29 @@
+.check_container{
+    :global{
+        .g_row{
+            overflow: hidden;
+            display: inline-block;
+            width: 100%;
+        }
+        .count_sift .hr{margin : 16px 0;}
+        .count_sift em{font-style: normal;}
+        .count_sift .tips{
+            background: rgba(1,121,255,0.05); 
+            border: 1px solid rgba(63,127,255,0.30); 
+            border-radius: 4px;
+            margin-top: 16px;
+        }
+        .goods_status_cricle{ 
+            width: 6px; 
+            height:6px; 
+            line-height: 6px;
+            display: inline-block; 
+            border-radius: 50%;
+            margin-right : 5px;
+            vertical-align: middle;
+        }
+    }
+    .ant-table-thead > tr > th ,.ant-table-tbody > tr > td{white-space: nowrap;}
+    .ant-table-scroll table .ant-table-fixed-columns-in-body{visibility: initial;}
+}
+

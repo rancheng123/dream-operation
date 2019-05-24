@@ -1,0 +1,90 @@
+.contract_box {
+    box-sizing: content-box;
+
+    :global {
+        .contract_detail_box {
+            box-shadow: 0 2px 14px 0 rgba(0,0,0,0.10);
+            border-radius: 4px;
+            overflow: hidden;
+    
+            .contract_col {
+                // padding: 8px 16px 15px 0;
+                height: 40px;
+                display: flex;
+    
+                .col1_title_box {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    // padding-bottom: 15px;
+                    // border-bottom: 1px solid #E9E9E9;
+                    
+                    .title_rectangle {
+                        width: 6px;
+                        height: 12px;
+                        background-image: linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%);
+                        border-radius: 2px;
+                        border-radius: 2px;
+                        margin-right: 8px;
+                    }
+                }
+    
+                .title_name {
+                    font-family: PingFangSC-Medium;
+                    font-size: 14px;
+                    color: #2C2D31;
+                    line-height: 14px;
+            
+                    .title_data {
+                        font-size: 14px;
+                        color: #36DCB6;
+                    }
+            
+                    .title_data2 {
+                        font-size: 14px;
+                        color: #2C2D31;
+                    }
+                }
+            }
+        
+            .button_line {
+                border-bottom: 1px solid #E9E9E9;
+            }
+    
+            .sign_box {
+                color: #0179FF;
+            }
+    
+            .sign_type_box {
+                color: #FF5555;
+            }
+    
+            .detail_img_box {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100px;
+    
+                .img_content {
+                    position: relative;
+                    width: 100%;
+                    height: auto;
+    
+                    canvas {
+                        width: 100%;
+                    }
+    
+                    .img_btn {
+                        position: absolute;
+                        bottom: 10px;
+                        width: 100%;
+                        padding: 44px 180px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }
+}

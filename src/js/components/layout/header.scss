@@ -1,0 +1,19 @@
+.aaa {
+  background: transparent;
+}
+
+.ant-popover {
+  .ant-popover-content {
+    .ant-popover-inner-content {
+      .logout {
+        &:hover {
+          color: #0179ff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+.menu_header{
+  background-image: linear-gradient(270deg, #0B1547 0%, #10182E 59%);
+}

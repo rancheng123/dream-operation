@@ -1,0 +1,18 @@
+:global{
+    $borderRadius: 0;
+    .mxj_select_search{
+        display: inline-block;
+        width : auto
+    }
+    .mxj_select_search .ant-select-selection-selected-value{color : #bfbfbf}
+    .mxj_select_search .ant-select-selection{
+        border-top-right-radius: $borderRadius;
+        border-bottom-right-radius: $borderRadius;
+    }
+    .mxj_select_search .ant-select-search{line-height: 0}
+    .mxj_select_search .ant-input{
+        border-top-left-radius: $borderRadius;
+        border-bottom-left-radius: $borderRadius;
+        border-left-width: 0 !important;
+    }
+}

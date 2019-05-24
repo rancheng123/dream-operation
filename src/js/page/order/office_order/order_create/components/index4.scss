@@ -1,0 +1,51 @@
+
+.step04{
+  :global{
+    .ant-form-item{
+      margin-bottom: 0!important;
+    }
+    .mxj-remarks-item{
+      .ant-form-item-control-wrapper{
+        width: 100%;
+      }
+    }
+  }
+}
+.mxj-check-sale-rule{
+  .mxj-detail-header-logo-com{
+    height: 12px!important;
+  }
+}
+.mxj-model-check-rule{
+  .mxj-check-sale-rule{
+    height: 39px;
+    width: 100%;
+    padding: 8px 12px 11px;
+    border-radius: 4px;
+    background: linear-gradient(rgba(225,225,225,0.2), rgba(191,191,191,0.20));
+    box-shadow: 0 2px 14px 0 rgba(0,0,0,0.05);
+    .mxj-detail-card-com{
+      background: transparent;
+    }
+  }
+
+ :global{
+   .ant-modal-body{
+     padding: 24px 16px;
+   }
+ }
+}
+.mxj-check-sale-content{
+  width: 100%;
+  padding: 17px 24px 22px;
+  display: flex;
+  color: #2C2D31;
+  .rule-left{
+    width: 50%;
+  }
+  .rule-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+}

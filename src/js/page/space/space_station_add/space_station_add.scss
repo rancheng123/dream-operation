@@ -1,0 +1,15 @@
+
+.space_station_add{
+  :global{
+    .ant-form-item{
+      margin-bottom: 16px;
+    }
+    .ant-form-item-label{
+      display: flex;
+      align-items: center;
+    }
+    .ant-form-item,.ant-form-item-label,.ant-form-item-control{
+      line-height: 14px !important;
+    }
+  }
+}

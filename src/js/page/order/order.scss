@@ -1,0 +1,55 @@
+.mxj-order-common-form{
+    :global{
+      .ant-form-item{
+        display: flex;
+        margin-bottom: 16px;
+        .ant-form-item-label{
+          line-height: 32px;
+        }
+        .ant-form-item-control-wrapper{
+          line-height: 32px;
+          .ant-form-item-control{
+            line-height: 32px;
+          }
+        }
+      }
+      .ant-form-item-control-wrapper{
+        flex: 1;
+      }
+
+    }
+  }
+@media screen and (max-width: 600px) {
+  .mxj-order-common-form{
+    :global{
+      .ant-form-item{
+        display: block;
+      }
+      .ant-form-item-control-wrapper{
+        flex: 1;
+      }
+    }
+  }
+}
+  .mxj-order-office-step{
+    :global{
+      .ant-steps-item-wait{
+        .mxj-order-office-step-icon{
+          border-radius: 24px!important;
+          border: 1px solid #E9E9E9;
+        }
+      }
+      .ant-steps-item-process, .ant-steps-item-finish{
+        .mxj-order-office-step-icon{
+          background: #0179FF;
+          color: #fff!important;
+          border-radius: 24px!important;
+          overflow: hidden!important;
+        }
+      }
+    }
+  }
+.mxj-table-total-text{
+  //position: absolute;
+  //left: 40px;
+}

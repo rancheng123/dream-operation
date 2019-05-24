@@ -1,0 +1,12 @@
+node_modules
+cache
+npm-debug.log
+.idea
+.vscode
+package-lock.json
+yarn.lock
+nginx-1.7.4
+/frontEnd/business/dist
+**/.idea
+.DS_Store
+/frontEnd/business/src/js/router/index-result.js

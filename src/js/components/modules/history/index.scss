@@ -1,0 +1,47 @@
+.mxj_history{
+    :global{
+    
+        ul{margin-top : 22px;}
+        ul p{margin : 0 ;}
+        ul li{
+            list-style-type: none;
+            padding-left : 16px;
+            box-sizing: content-box;
+            border-left: 1px solid #E9E9E9;
+            padding-bottom: 24px;
+            position: relative;
+        }
+        ul li .ct{
+            display: flex;
+            flex-direction: column;
+            padding: 10px 16px;
+            margin-top : 8px;
+            box-sizing: content-box;
+            border-radius:  4px;
+            
+        }
+        ul li .ct p{color : #656771;}
+        ul li .history_icon{
+            width: 18px;
+            height: 18px;
+            position: absolute;
+            border-radius: 50%;
+            left : -9px;
+            top : 0px;
+            font-size : 18px;
+        }
+        .ul .title{
+            display: flex;
+            justify-content : space-between;
+        }
+        .ul .date{
+            color : #656771;
+            margin-right : 16px;
+        }
+        .ant-collapse-borderless > .ant-collapse-item{border-bottom: none;}
+        .ant-collapse-content-box{padding : 0;}
+        .ant-collapse-header{
+            display: none;
+        }
+    }
+}

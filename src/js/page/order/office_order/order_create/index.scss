@@ -1,0 +1,109 @@
+
+.pinkWarn{
+  color: rgb(236, 3, 124);
+  font-size:12px;
+  margin-left: 20px;
+}
+.u7829{
+  color: #E59058;
+  font-size:16px;
+}
+.gray-box{
+  width: 100%;
+  height: 47px;
+  background: rgba(128, 128, 128, 0.3);
+  display: flex;
+  align-items: center;
+}
+.step02TimeBox{
+  width: 100%;
+  height: 50px;
+  background: #37A0F6;
+  display: flex;
+  align-items: center;
+}
+
+.order-office-create{
+  :global{
+    .ant-steps-item-icon{
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+    }
+    .ant-steps-small .ant-steps-item-title{
+      line-height: 28px;
+    }
+  }
+}
+.mxj-order-bottom-form{
+  :global{
+    .ant-form-item{
+      display: flex;
+      .ant-form-item-label{
+        max-width: 204px;
+        text-align: right;
+      }
+      .ant-form-item-control-wrapper{
+        flex-grow: 1;
+      }
+    }
+
+  }
+}
+.mxj-main-row{
+  :global{
+    .ant-form-item{
+      display: flex;
+    }
+  }
+}
+.mxj-auto-search-inline{
+  :global{
+    .ant-select-search--inline{
+      height: 32px!important;
+    }
+  }
+}
+.mxj-edit-table{
+  :global{
+    .ant-table-footer{
+      background: #fff;
+    }
+  }
+  .mxj-edit-table-footer{
+    text-align: right;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+  }
+}
+
+.mxj-inline-form-label{
+  :global{
+    .ant-form-item-label{
+      width: 186px!important;
+    }
+    .ant-form-inline .ant-form-item{
+      margin-right: 0;
+    }
+  }
+}
+
+.mxj-other-pay{
+  display: flex;
+}
+
+.mxj-form-location {
+  :global{
+    .ant-form-item-control-wrapper{
+      width: 100%;
+    }
+  }
+}
+.mxj-order-office-info-step01{
+  :global{
+    .ant-pagination-item{
+      display: none!important;
+    }
+  }
+}

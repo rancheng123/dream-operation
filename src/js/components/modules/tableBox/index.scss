@@ -1,0 +1,13 @@
+.table_box {
+    box-sizing: border-box;
+
+    .table_alert {
+        margin-bottom: 16px;
+        display: none;
+    }
+
+    .table_content {
+        border: 1px solid #E9E9E9;
+        border-radius: 4px;
+    }
+}

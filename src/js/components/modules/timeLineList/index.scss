@@ -1,0 +1,32 @@
+.timeLine_list_box {
+    box-sizing: content-box;
+
+    // 时间轴list 样式
+    .timeline_item_content {
+        .timeline_item_header {
+            padding: 2px 16px 8px 16px;
+
+            .item_header_space {
+                margin-left: 48px;
+            }
+        }
+
+        .timeline_item_content {
+            background-image: linear-gradient(-180deg, rgba(102,240,220,0.10) 0%, rgba(54,220,182,0.10) 100%);
+            border-radius: 4px;
+            font-size: 14px;
+            color: #656771;
+            padding: 8px 16px;
+            line-height: 24px;
+        }
+
+        .timeline_item_content2 {
+            background: rgba(255,85,85,0.08);
+            border-radius: 4px;
+            font-size: 14px;
+            color: #656771;
+            padding: 8px 16px;
+            line-height: 24px;
+        }
+    }
+}

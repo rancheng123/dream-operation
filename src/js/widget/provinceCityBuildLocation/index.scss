@@ -1,0 +1,28 @@
+
+/*弹性盒子 start*/
+.provinceCityBuildLocationWrap{
+  /*启用弹性盒子*/
+
+  //display: inline-flex;
+  display: -webkit-inline-box !important;
+  display: -moz-inline-box!important;
+  display: -o-inline-box!important;
+  display: -ms-inline-box!important;
+
+
+  /*width必须写，否则 FF 不起作用*/
+  width: 100%;
+
+  /*注意事项： 这里不能写fix 定位，否则FF不起作用， 可以写到外层div*/
+
+  .ant-select{
+    -webkit-box-flex: 1.0 ;
+    -moz-box-flex: 1.0;
+    -o-box-flex: 1.0;
+    -ms-box-flex: 1.0;
+    display: block;
+  }
+
+
+}
+

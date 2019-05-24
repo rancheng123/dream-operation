@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>驳回</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="审核管理-审核提前终止" transform="translate(-321.000000, -2745.000000)" fill-rule="nonzero">
+            <g id="数据列表" transform="translate(249.000000, 123.000000)">
+                <g id="buzhou1" transform="translate(39.000000, 317.000000)">
+                    <g id="1" transform="translate(0.000000, 2021.000000)">
+                        <g id="驳回" transform="translate(32.000000, 283.000000)">
+                            <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                            <path d="M9.5,1 C4.80558302,1 1,4.80558302 1,9.5 C1,14.194417 4.80558302,18 9.5,18 C14.194417,18 18,14.194417 18,9.5 C18,4.80558302 14.194417,1 9.5,1 Z" id="形状" fill="#FF5555"></path>
+                            <path d="M12.7,11.6 C13,11.9 13,12.3 12.7,12.6 C12.4,12.9 12,12.9 11.7,12.6 L9.6,10.5 L7.4,12.7 C7.1,13 6.6,13 6.3,12.7 C6,12.4 6,11.9 6.3,11.6 L8.5,9.4 L6.4,7.3 C6.1,7 6.1,6.6 6.4,6.3 C6.7,6 7.1,6 7.4,6.3 L9.5,8.4 L11.7,6.2 C12,5.9 12.5,5.9 12.8,6.2 C13.1,6.5 13.1,7 12.8,7.3 L10.6,9.5 L12.7,11.6 Z" id="路径" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,39 @@
+#aside {
+
+  .ant-menu-item-selected {
+    background: -webkit-linear-gradient(to right, #61B7FF, #0179FF); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(to right, #61B7FF, #0179FF); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(to right, #61B7FF, #0179FF); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #61B7FF, #0179FF); /* 标准的语法 */
+  }
+}
+.menu_left{
+  background-image: linear-gradient(180deg, #0B1547 0%, #101931 37%);
+  height : 100vh;
+  overflow: hidden;
+  position: fixed;
+}
+.logo_container {
+  width : 224px;
+  height : 56px;
+  display: flex;
+  justify-content: center;
+  // flex-direction: column;
+  // position: fixed;
+  // justify-content: flex-start;
+  // z-index: 5;
+  // background-image: linear-gradient(180deg, #0B1547 0%, #101931 37%);
+  :global{
+    .logo_title{
+      width : 108px;
+      height : 21px;
+      line-height: 21px;
+      background-image: linear-gradient(135deg, #7CD4FF 8%, #0078FF 100%);
+      border-radius: 14px;
+      text-align: center;
+      color : #FFF;
+      font-size: 14px;
+
+    }
+  }
+}

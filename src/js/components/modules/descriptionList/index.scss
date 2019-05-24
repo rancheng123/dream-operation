@@ -1,0 +1,30 @@
+.descriptionList{
+  .title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 14px;
+
+  }
+  .term {
+    display: table-cell;
+    padding-bottom: 16px;
+    // Line-height is 22px IE dom height will calculate error
+    line-height: 1;
+    white-space: nowrap;
+    color: #656771;
+    &::after {
+      position: relative;
+      top: -0.5px;
+      margin: 0 8px 0 2px;
+      content: ':';
+    }
+  }
+  .detail {
+    display: table-cell;
+    width: 100%;
+    padding-bottom: 16px;
+    line-height: 1;
+    color: #2C2D31;
+  }
+
+}

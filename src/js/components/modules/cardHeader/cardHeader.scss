@@ -1,0 +1,27 @@
+.card_header_box {
+    box-sizing: content-box;
+}
+
+.card_header_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E9E9E9;
+
+    .card_header_rectangle {
+        width: 6px;
+        height: 12px;
+        background-image: linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%);
+        border-radius: 2px;
+        border-radius: 2px;
+        margin-right: 8px;
+    }
+
+    .card_header_title {
+        font-family: PingFangSC-Medium;
+        font-size: 14px;
+        color: #2C2D31;
+        line-height: 14px;
+    }
+}

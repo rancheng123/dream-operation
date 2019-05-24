@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>成功</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="合同管理+审核管理-弹窗" transform="translate(-353.000000, -261.000000)" fill-rule="nonzero">
+            <g id="线上付款" transform="translate(133.000000, 141.000000)">
+                <g id="成功" transform="translate(220.000000, 120.000000)">
+                    <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="80" height="80"></rect>
+                    <path d="M40,80 C17.90861,80 2.705415e-15,62.09139 0,40 C-2.705415e-15,17.90861 17.90861,4.05812251e-15 40,0 C62.09139,1.3527075e-15 80,17.90861 80,40 C80,62.09139 62.09139,80 40,80 Z M36.1257143,50.5314286 L24.6857143,38.9542857 L17.1428571,46.16 C22.6285714,49.1142857 30.3142857,54.5028571 36.8971429,62.8571429 C41.5485714,54.1142857 55.8857143,36.2285714 62.8571429,34.6285714 C61.7314286,30.12 61.0971429,21.6571428 62.8571429,17.1428571 C48.56,26.5714285 36.1257143,50.5314285 36.1257143,50.5314286 Z" id="形状" fill="#36DCB6"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,55 @@
+.refund_apply_box {
+    box-sizing: content-box;
+
+    .refund_content_box {
+        box-shadow: 0 2px 14px 0 rgba(0,0,0,0.10);
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    .col1_title_box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // padding-bottom: 15px;
+        // border-bottom: 1px solid #E9E9E9;
+        
+        .title_rectangle {
+            width: 6px;
+            height: 12px;
+            background-image: linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%);
+            border-radius: 2px;
+            border-radius: 2px;
+            margin-right: 8px;
+        }
+    }
+
+    .select_row_box {
+        margin-top: 18px;
+
+        .children_table {
+            margin: 0 0 4px 16px;
+            font-family: PingFangSC-Regular;
+            font-size: 14px;
+            color: #656771;
+        }
+    }
+
+    .button_box {
+        width: 100%;
+        margin-top: 40px;
+        
+        .confirm_btn {
+            margin-right: 16px;
+        }
+    }
+
+    .icon_span {
+        margin-right: 4px;
+        color: #f5222d;
+        font-size: 14px;
+        font-family: SimSun, sans-serif;
+        line-height: 1;
+        content: '*';
+    }
+}

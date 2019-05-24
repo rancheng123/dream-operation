@@ -1,0 +1,32 @@
+.mxj-detail-card-com{
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 4px;
+  .mxj-detail-header-com{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    .mxj-detail-header-logo-com{
+      width: 6px;
+      height: 10px;
+      border-radius: 2px;
+      background: -webkit-linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%); /* Safari 5.1 - 6.0 */
+      background: -o-linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%); /* Opera 11.1 - 12.0 */
+      background: -moz-linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%); /* Firefox 3.6 - 15 */
+      background: linear-gradient(-90deg, #61B7FF 0%, #0179FF 100%); /* 标准的语法 */
+      margin-right: 8px;
+    }
+    .mxj-detail-header-title-com{
+      color: #2C2D31;
+      font-size: 14px;
+      flex: 1;
+    }
+  }
+  .mxj-detail-content-com{
+    padding: 0 8px;
+  }
+}

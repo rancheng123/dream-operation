@@ -1,0 +1,68 @@
+.module1{
+
+
+
+  .webpackCacheTest{
+    width: 100px;
+    height: 100px;
+  }
+  .webpackCacheTest1{
+    background: gray;
+  }
+  .webpackCacheTest2{
+    background: green;
+  }
+  .webpackCacheTest3{
+    background: blue;
+  }
+
+
+  .imgTagTest{
+    width: 100px;
+    height: 100px;
+
+  }
+  .backgroundUrlTest{
+    width: 100px;
+    height: 100px;
+    background: url('../../../image/temp/3.jpg') no-repeat;
+    background-size: 100%;
+  }
+}
+
+
+.red{
+  height:100px;
+  width:100px;
+  background: gray;
+}
+
+
+
+.css3Test{
+  transform: scale(2,2);
+  transform: rotate(70deg);
+  transform: translate(100,100);
+  width: 100px;
+  height: 100px;
+  background: gray;
+
+}
+
+
+.testRem{
+  width:100px;
+  height:100px;
+  background:gray;
+}
+
+/*
+.testFonts{
+  font-size: 24px;
+  font-family: "GothamBold";
+  color: #51aaf2;
+}*/
+
+.testWeiruan{
+  font-family: "Microsoft YaHei";
+}

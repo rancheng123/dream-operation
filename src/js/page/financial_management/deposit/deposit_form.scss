@@ -1,0 +1,145 @@
+.deposit_form_box {
+    // .header_box {
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: center;
+    //     align-items: center;
+
+    //     .header_icon {
+    //         padding: 10px;
+    //     }
+        
+    //     .header_info {
+    //         position: relative;
+    //         text-align: center;
+        
+            
+    //     }
+    // }
+
+    .deposit_form_content_box {
+        box-shadow: 0 2px 14px 0 rgba(0,0,0,0.10);
+        border-radius: 4px;
+        overflow: hidden;
+        // margin-top: 35px;
+    }
+
+    & > span {
+        display: inline-block;
+        margin-bottom: 4px;
+        color: #000;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    & > p {
+        margin: 0;
+        color: #000;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    & > em {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1px;
+        height: 56px;
+        background-color: #fff;
+    }
+
+    .table_list_form {
+        :global {
+            .ant-form-item {
+                display: flex;
+                margin-right: 0;
+                margin-bottom: 24px;
+
+                > .ant-form-item-label {
+                    width: auto;
+                    padding-right: 8px;
+                    line-height: 32px;
+                }
+                
+                .ant-form-item-control {
+                    line-height: 40px;
+                }
+            }
+
+            .ant-form-item-control-wrapper {
+                flex: 1;
+            }
+        }
+
+        .submit_buttons {
+            // display: flex;
+            // justify-content: space-between;
+            // flex: 1;
+            display: block;
+            margin-bottom: 24px;
+            white-space: nowrap;
+        }
+    }
+
+    .table_list_operator {
+        background-color: #fff;
+        padding: 0px 32px;
+        button {
+            margin-right: 8px;
+        }
+
+        .table_separate_line {
+            height: 1px;
+            background-color: #E0E0E0;
+            padding: 0 32px;
+        }
+
+        .operator_buttons {
+            padding-top: 32px;
+        }
+    }
+
+    .more_button_box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .refund_status_box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .refund_status_point {
+            margin-right: 4px;
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+        }
+
+        .point_red {
+            background-color: #FF5555;
+        }
+
+        .point_green {
+            background-color: #36DCB6;
+        }
+    }
+
+    :global {
+        .ant-form-item {
+            // display: flex;
+            // margin-right: 0;
+            // margin-bottom: 24px;
+            // > .ant-form-item-label {
+            //     width: auto;
+            //     padding-right: 8px;
+            //     line-height: 32px;
+            // }
+            // .ant-form-item-control {
+            //     line-height: 32px;
+            // }
+        }
+    }
+}

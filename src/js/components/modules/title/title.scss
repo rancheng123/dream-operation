@@ -1,0 +1,21 @@
+.gyq{
+    width : 0
+}
+.titleWrap{
+    :global{
+        .title{
+            display: flex;
+            align-items: center;
+            height : 30px;
+            line-height: 30px;
+            font-weight: 600;
+            box-sizing: content-box;
+            font-size : 18px;
+            margin-bottom: 24px;
+            color : black;
+        }
+    }
+    
+}
+
+

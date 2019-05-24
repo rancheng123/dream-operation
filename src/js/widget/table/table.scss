@@ -1,0 +1,17 @@
+.mxj_table_warp{
+  position: relative;
+  .mxj_table{
+    border: 1px solid #E9E9E9 ;
+    background: white;
+
+    .ant-table-pagination{
+      margin-right: 40px;
+    }
+  }
+  .mxj_table_tip{
+    position: absolute;
+    z-index: 26;
+    width: 100%;
+    top: -58px;
+  }
+}
